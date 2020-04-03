@@ -30,7 +30,7 @@ try{
 	));
 
     if( $lead ){
-        header('Location: success.html');
+        header('Location: img/success.html');
     }
 }catch (Exception $e) {
     //error handler
